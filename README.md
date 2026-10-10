@@ -165,18 +165,28 @@ Do not commit AWS credentials, access keys, passwords, or other secrets to the r
 ```text
 WaterLoop/
 ├── backend/
-│   ├── quality/
 │   ├── allocation/
+│   │   ├── __init__.py
+│   │   └── engine.py
 │   ├── impact/
-│   ├── scenarios/
+│   │   ├── __init__.py
+│   │   └── calculator.py
+│   ├── quality/
+│   │   ├── models.py
+│   │   ├── rules.py
+│   │   └── validator.py
 │   └── planner.py
 ├── frontend/
-├── data/
 ├── tests/
-├── docs/
+│   ├── test_engine.py
+│   ├── test_planner.py
+│   └── test_quality_validator.py
 ├── .gitignore
 └── README.md
 ```
+
+*The structure above highlights the main application components and tests. The frontend contains the React application.*
+
 
 ## ⚠️ Limitations and Responsible Use
 
