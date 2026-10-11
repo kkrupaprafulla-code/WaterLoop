@@ -221,7 +221,3 @@ The applicable requirements should be checked against the original document and 
 **WeMakeDevs AWS Environmental Hacks — 2026**
 
 WATERLOOP explores how software and cloud computing can support more thoughtful water reuse and allocation decisions.
-
-## 📄 License
-
-Choose and add an appropriate open-source license before publicly distributing the project.
